@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/ed8665bf0e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Materialize CSS</title>
+</head>
+<body>
+    <!--Cards-->
+    <div class="container">
+        <h2>Cards</h2>
+        <div class="row">
+          <div class="col s12 l6">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/pastasalad.jpg" alt="">
+                <a href="" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title">Pesto Pasta</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              </div>
+              <div class="card-action">
+                <a href="">More details</a>
+                <a href="">View Ingredients</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 l6">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/pistachio and raspberries.jpg" alt="">
+                <a href="" class="halfway-fab btn-floating pink pulse">
+                  <i class="material-icons">favorite</i>
+                </a>
+              </div>
+              <div class="card-content">
+                <span class="card-title">Pistachio and Raspberries</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis aliquam orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+              </div>
+              <div class="card-action">
+                <a href="">More details</a>
+                <a href="">View Ingredients</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!--Collections-->
+    <div class="container">
+        <h2>Collections</h2>
+        <ul class="collection with-header">
+          <li class="collection-header"><h4>Customers</h4></li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle blue">person</i>
+            <span class="title">Ryu</span>
+            <p class="grey-text">black-belt</p>
+            <a href="" class="secondary-content">
+              <i class="material-icons light-blue-text">email</i>
+            </a>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle blue">person</i>
+            <span class="title">Yoshi</span>
+            <p class="grey-text">orange-belt</p>
+            <a href="" class="secondary-content">
+              <i class="material-icons light-blue-text">email</i>
+            </a>
+          </li>
+          <li class="collection-item avatar">
+            <i class="material-icons circle blue">person</i>
+            <span class="title">Crystal</span>
+            <p class="grey-text">brown-belt</p>
+            <a href="" class="secondary-content">
+              <i class="material-icons light-blue-text">email</i>
+            </a>
+          </li>
+          <li class="collection-item">Mario</li>
+          <li class="collection-item">Luigi</li>
+          <li class="collection-item">Bowser</li>
+        </ul>
+      </div>
+
+    <!--Modals-->
+    <div class="container">
+        <h2>Modals</h2>
+        <a class="btn orange modal-trigger" href="#terms">Terms & Conditions</a>
+        <div id="terms" class="modal">
+          <div class="modal-content">
+            <h4>Terms & Conditions</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae finibus mi, egestas dignissim metus. Fusce tempus elementum metus. Donec eu nibh fringilla, dignissim arcu eu, ultrices ante. Cras consectetur risus id mi condimentum aliquam.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close btn orange">Agree</a>
+          </div>
+        </div>
+      </div>
+      <br><br>
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $('.modal').modal();
+        });
+    </script>
+</body>
+</html>
